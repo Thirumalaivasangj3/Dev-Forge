@@ -1,4 +1,4 @@
-# 🤖 AI GitHub Issue Agent (MCP + n8n + Groq)
+# AI GitHub Issue Agent (MCP + n8n + Groq)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq_LLM-F55036?style=for-the-badge&logoColor=white)
@@ -10,20 +10,20 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-| | Feature |
-|---|---|
-| 🧠 | AI issue analysis using Groq LLM |
-| 🔧 | MCP tool architecture for agent actions |
-| ⚡ | n8n workflow automation |
-| 💬 | Automatic GitHub comments |
-| 🏷️ | Issue labeling support |
-| 🔁 | Event-driven DevOps workflow |
+| Feature |
+|---|
+| AI issue analysis using Groq LLM |
+| MCP tool architecture for agent actions |
+| n8n workflow automation |
+| Automatic GitHub comments |
+| Issue labeling support |
+| Event-driven DevOps workflow |
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 ```
 GitHub Issue → n8n Webhook → Backend Agent → Groq LLM → MCP Tool → GitHub Comment
@@ -31,7 +31,7 @@ GitHub Issue → n8n Webhook → Backend Agent → Groq LLM → MCP Tool → Git
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology |
 |---|
@@ -43,7 +43,7 @@ GitHub Issue → n8n Webhook → Backend Agent → Groq LLM → MCP Tool → Git
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 
 ```bash
 pip install -r requirements.txt
@@ -52,21 +52,18 @@ uvicorn backend.main:app --reload
 
 ---
 
-## 🔐 Environment
+## Environment
 
 Create `.env` from `.env.example`.
 
 ---
 
-## 📌 Use Case
+## Use Case
 
 > Acts as an AI developer assistant that helps triage issues, generate debugging steps, and automate DevOps workflows.
 
 ---
 
-## ⭐ Future Work
+## License
 
-- [ ] PR generation
-- [ ] Multi-agent orchestration
-- [ ] Repo knowledge RAG
-- [ ] CI failure analysis
+MIT License
